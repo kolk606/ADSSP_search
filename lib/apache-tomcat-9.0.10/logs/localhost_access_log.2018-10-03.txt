@@ -1,0 +1,7 @@
+0:0:0:0:0:0:0:1 - - [03/Oct/2018:08:48:21 +0900] "GET /manager/ HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [03/Oct/2018:08:48:21 +0900] "GET /manager/html HTTP/1.1" 401 2536
+0:0:0:0:0:0:0:1 - admin [03/Oct/2018:08:48:34 +0900] "GET /manager/html HTTP/1.1" 200 25376
+0:0:0:0:0:0:0:1 - admin [03/Oct/2018:08:48:51 +0900] "POST /manager/html/start;jsessionid=A306B0C96BFB4D566356D9047D81AF0F?path=/strutsHello&org.apache.catalina.filters.CSRF_NONCE=EF4B960704D812B69D7EC094995D5830 HTTP/1.1" 200 24113
+0:0:0:0:0:0:0:1 - - [03/Oct/2018:08:48:56 +0900] "GET /strutsHello/ HTTP/1.1" 404 1119
+0:0:0:0:0:0:0:1 - - [03/Oct/2018:08:49:08 +0900] "GET /strutsHello/WebContent/ HTTP/1.1" 200 509
+0:0:0:0:0:0:0:1 - - [03/Oct/2018:08:51:11 +0900] "GET /strutsHello/WebContent/hello?name=aa HTTP/1.1" 404 1139

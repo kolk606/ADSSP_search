@@ -1,0 +1,10 @@
+0:0:0:0:0:0:0:1 - - [15/Oct/2018:12:09:24 +0900] "GET /manager/ HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [15/Oct/2018:12:09:24 +0900] "GET /manager/html HTTP/1.1" 401 2536
+0:0:0:0:0:0:0:1 - admin [15/Oct/2018:13:05:46 +0900] "GET /manager/html HTTP/1.1" 200 26047
+0:0:0:0:0:0:0:1 - - [15/Oct/2018:13:05:46 +0900] "GET /manager/images/tomcat.gif HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [15/Oct/2018:13:05:46 +0900] "GET /manager/images/asf-logo.svg HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [15/Oct/2018:13:05:48 +0900] "GET /favicon.ico HTTP/1.1" 200 21630
+0:0:0:0:0:0:0:1 - - [15/Oct/2018:13:05:53 +0900] "GET /strutsHello/ HTTP/1.1" 404 1119
+0:0:0:0:0:0:0:1 - - [15/Oct/2018:13:05:58 +0900] "GET /strutsHello/WebContent/ HTTP/1.1" 200 426
+0:0:0:0:0:0:0:1 - - [15/Oct/2018:13:06:01 +0900] "GET /strutsHello/WebContent/hello?name=aa HTTP/1.1" 404 1139
+0:0:0:0:0:0:0:1 - - [15/Oct/2018:13:09:57 +0900] "GET /strutsHello/WebContent/index.jsp HTTP/1.1" 200 426

@@ -1,0 +1,61 @@
+30-Nov-2018 09:40:43.717 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.10
+30-Nov-2018 09:40:43.741 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 20 2018 17:32:21 UTC
+30-Nov-2018 09:40:43.748 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.10.0
+30-Nov-2018 09:40:43.749 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+30-Nov-2018 09:40:43.749 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+30-Nov-2018 09:40:43.749 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+30-Nov-2018 09:40:43.749 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\kana.katsumata\eclipse-workspace\TestWeb2\jre
+30-Nov-2018 09:40:43.749 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_191-b12
+30-Nov-2018 09:40:43.750 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+30-Nov-2018 09:40:43.750 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\kana.katsumata\eclipse-workspace\TestWeb2\lib\apache-tomcat-9.0.10
+30-Nov-2018 09:40:43.750 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\kana.katsumata\eclipse-workspace\TestWeb2\lib\apache-tomcat-9.0.10
+30-Nov-2018 09:40:43.751 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\kana.katsumata\eclipse-workspace\TestWeb2\lib\apache-tomcat-9.0.10\conf\logging.properties
+30-Nov-2018 09:40:43.751 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+30-Nov-2018 09:40:43.751 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+30-Nov-2018 09:40:43.752 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+30-Nov-2018 09:40:43.752 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+30-Nov-2018 09:40:43.753 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\kana.katsumata\eclipse-workspace\TestWeb2\lib\apache-tomcat-9.0.10
+30-Nov-2018 09:40:43.756 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\kana.katsumata\eclipse-workspace\TestWeb2\lib\apache-tomcat-9.0.10
+30-Nov-2018 09:40:43.756 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\kana.katsumata\eclipse-workspace\TestWeb2\lib\apache-tomcat-9.0.10\temp
+30-Nov-2018 09:40:43.757 情報 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library [1.2.17] using APR version [1.6.3].
+30-Nov-2018 09:40:43.758 情報 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+30-Nov-2018 09:40:43.758 情報 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+30-Nov-2018 09:40:44.848 情報 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.0.2o  27 Mar 2018]
+30-Nov-2018 09:40:46.228 情報 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+30-Nov-2018 09:40:46.501 情報 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+30-Nov-2018 09:40:46.516 情報 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+30-Nov-2018 09:40:46.519 情報 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+30-Nov-2018 09:40:46.520 情報 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 3552 ms
+30-Nov-2018 09:40:46.598 情報 [main] org.apache.catalina.core.StandardService.startInternal サービス [Catalina] を起動します
+30-Nov-2018 09:40:46.601 情報 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.10
+30-Nov-2018 09:40:46.620 情報 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 設定記述子 [C:\Users\kana.katsumata\eclipse-workspace\TestWeb2\lib\apache-tomcat-9.0.10\conf\Catalina\localhost\ADSPSearch.xml] を配備します
+30-Nov-2018 09:40:46.674 警告 [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/ADSPSearch] in deployment descriptor [C:\Users\kana.katsumata\eclipse-workspace\TestWeb2\lib\apache-tomcat-9.0.10\conf\Catalina\localhost\ADSPSearch.xml] has been ignored
+30-Nov-2018 09:40:48.797 情報 [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Nov-2018 09:40:48.882 情報 [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\kana.katsumata\eclipse-workspace\TestWeb2\lib\apache-tomcat-9.0.10\conf\Catalina\localhost\ADSPSearch.xml] has finished in [2,260] ms
+30-Nov-2018 09:40:48.886 情報 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 設定記述子 [C:\Users\kana.katsumata\eclipse-workspace\TestWeb2\lib\apache-tomcat-9.0.10\conf\Catalina\localhost\helloworld.xml] を配備します
+30-Nov-2018 09:40:48.889 警告 [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/helloworld] in deployment descriptor [C:\Users\kana.katsumata\eclipse-workspace\TestWeb2\lib\apache-tomcat-9.0.10\conf\Catalina\localhost\helloworld.xml] has been ignored
+30-Nov-2018 09:40:48.931 情報 [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\kana.katsumata\eclipse-workspace\TestWeb2\lib\apache-tomcat-9.0.10\conf\Catalina\localhost\helloworld.xml] has finished in [46] ms
+30-Nov-2018 09:40:48.935 情報 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 設定記述子 [C:\Users\kana.katsumata\eclipse-workspace\TestWeb2\lib\apache-tomcat-9.0.10\conf\Catalina\localhost\strutsHello.xml] を配備します
+30-Nov-2018 09:40:48.938 警告 [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/strutsHello] in deployment descriptor [C:\Users\kana.katsumata\eclipse-workspace\TestWeb2\lib\apache-tomcat-9.0.10\conf\Catalina\localhost\strutsHello.xml] has been ignored
+30-Nov-2018 09:40:48.977 情報 [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\kana.katsumata\eclipse-workspace\TestWeb2\lib\apache-tomcat-9.0.10\conf\Catalina\localhost\strutsHello.xml] has finished in [41] ms
+30-Nov-2018 09:40:48.979 情報 [main] org.apache.catalina.startup.HostConfig.deployDirectory Webアプリケーションディレクトリ [C:\Users\kana.katsumata\eclipse-workspace\TestWeb2\lib\apache-tomcat-9.0.10\webapps\docs] を配備します
+30-Nov-2018 09:40:49.028 情報 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\kana.katsumata\eclipse-workspace\TestWeb2\lib\apache-tomcat-9.0.10\webapps\docs] has finished in [50] ms
+30-Nov-2018 09:40:49.043 情報 [main] org.apache.catalina.startup.HostConfig.deployDirectory Webアプリケーションディレクトリ [C:\Users\kana.katsumata\eclipse-workspace\TestWeb2\lib\apache-tomcat-9.0.10\webapps\examples] を配備します
+30-Nov-2018 09:40:49.677 情報 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\kana.katsumata\eclipse-workspace\TestWeb2\lib\apache-tomcat-9.0.10\webapps\examples] has finished in [633] ms
+30-Nov-2018 09:40:49.681 情報 [main] org.apache.catalina.startup.HostConfig.deployDirectory Webアプリケーションディレクトリ [C:\Users\kana.katsumata\eclipse-workspace\TestWeb2\lib\apache-tomcat-9.0.10\webapps\host-manager] を配備します
+30-Nov-2018 09:40:49.744 情報 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\kana.katsumata\eclipse-workspace\TestWeb2\lib\apache-tomcat-9.0.10\webapps\host-manager] has finished in [64] ms
+30-Nov-2018 09:40:49.746 情報 [main] org.apache.catalina.startup.HostConfig.deployDirectory Webアプリケーションディレクトリ [C:\Users\kana.katsumata\eclipse-workspace\TestWeb2\lib\apache-tomcat-9.0.10\webapps\manager] を配備します
+30-Nov-2018 09:40:49.795 情報 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\kana.katsumata\eclipse-workspace\TestWeb2\lib\apache-tomcat-9.0.10\webapps\manager] has finished in [49] ms
+30-Nov-2018 09:40:49.798 情報 [main] org.apache.catalina.startup.HostConfig.deployDirectory Webアプリケーションディレクトリ [C:\Users\kana.katsumata\eclipse-workspace\TestWeb2\lib\apache-tomcat-9.0.10\webapps\ROOT] を配備します
+30-Nov-2018 09:40:49.836 情報 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\kana.katsumata\eclipse-workspace\TestWeb2\lib\apache-tomcat-9.0.10\webapps\ROOT] has finished in [38] ms
+30-Nov-2018 09:40:49.850 情報 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+30-Nov-2018 09:40:49.867 情報 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+30-Nov-2018 09:40:49.873 情報 [main] org.apache.catalina.startup.Catalina.start Server startup in 3351 ms
+30-Nov-2018 09:41:03.709 情報 [http-nio-8080-exec-1] org.apache.tomcat.util.http.parser.Cookie.logInvalidHeader A cookie header was received [ADSelfService Plus"; CUSTOM_SSO_APP_TAG_NAME=ADSSP; APPS_PANE_LOADED=true] that contained an invalid cookie. That cookie will be ignored.Note: further occurrences of this error will be logged at DEBUG level.
+30-Nov-2018 09:42:38.927 情報 [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+30-Nov-2018 09:42:39.025 情報 [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+30-Nov-2018 09:42:39.165 情報 [Thread-5] org.apache.catalina.core.StandardService.stopInternal サービス [Catalina] を停止します
+30-Nov-2018 09:42:39.261 情報 [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+30-Nov-2018 09:42:39.265 情報 [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+30-Nov-2018 09:42:39.268 情報 [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+30-Nov-2018 09:42:39.269 情報 [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]

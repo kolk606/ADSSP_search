@@ -1,0 +1,13 @@
+2018-10-29 08:51:26 JST ERROR:  åˆ—"gina"ã¯å­˜åœ¨ã—ã¾ã›ã‚“(æ–‡å­—ä½ç½® 86)
+2018-10-29 08:51:26 JST ã‚¹ãƒ†ãƒ¼ãƒˆãƒ¡ãƒ³ãƒˆ:  select feature_name, tab, feature_location from feature_info where feature_name like gina;
+2018-10-29 08:51:47 JST ERROR:  ";"ã¾ãŸã¯ãã®è¿‘è¾ºã§æ§‹æ–‡ã‚¨ãƒ©ãƒ¼(æ–‡å­—ä½ç½® 91)
+2018-10-29 08:51:47 JST ã‚¹ãƒ†ãƒ¼ãƒˆãƒ¡ãƒ³ãƒˆ:  select feature_name, tab, feature_location from feature_info where feature_name like gina*;
+2018-10-29 08:52:23 JST ERROR:  "%"ã¾ãŸã¯ãã®è¿‘è¾ºã§æ§‹æ–‡ã‚¨ãƒ©ãƒ¼(æ–‡å­—ä½ç½® 86)
+2018-10-29 08:52:23 JST ã‚¹ãƒ†ãƒ¼ãƒˆãƒ¡ãƒ³ãƒˆ:  select feature_name, tab, feature_location from feature_info where feature_name like %gina%;
+2018-10-29 09:24:55 JST LOG:  ‚‘¬ƒVƒƒƒbƒgƒ_ƒEƒ“—v‹‚ğó‚¯æ‚è‚Ü‚µ‚½
+2018-10-29 09:24:55 JST LOG:  Šˆ“®’†‚Ì‘Sƒgƒ‰ƒ“ƒUƒNƒVƒ‡ƒ“‚ğƒAƒ{[ƒg‚µ‚Ä‚¢‚Ü‚·
+2018-10-29 09:24:55 JST LOG:  ©“®ƒoƒLƒ…[ƒ€ƒ‰ƒ“ƒ`ƒƒ‚ğ’â~‚µ‚Ä‚¢‚Ü‚·
+2018-10-29 09:24:55 JST ERROR:  ƒ†[ƒU‚©‚ç‚Ì—v‹‚É‚æ‚è•¶‚ğƒLƒƒƒ“ƒZƒ‹‚µ‚Ä‚¢‚Ü‚·
+2018-10-29 09:24:55 JST LOG:  ©“®ƒoƒLƒ…[ƒ€ƒ‰ƒ“ƒ`ƒƒ‚ğ’â~‚µ‚Ä‚¢‚Ü‚·
+2018-10-29 09:24:55 JST LOG:  ƒVƒƒƒbƒgƒ_ƒEƒ“‚µ‚Ä‚¢‚Ü‚·
+2018-10-29 09:24:55 JST LOG:  ƒf[ƒ^ƒx[ƒXƒVƒXƒeƒ€‚ÍƒVƒƒƒbƒgƒ_ƒEƒ“‚µ‚Ü‚µ‚½

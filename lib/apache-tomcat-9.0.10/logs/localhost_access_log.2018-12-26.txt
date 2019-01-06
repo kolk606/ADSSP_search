@@ -1,0 +1,7 @@
+0:0:0:0:0:0:0:1 - - [26/Dec/2018:09:17:12 +0900] "GET /manager/ HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [26/Dec/2018:09:17:12 +0900] "GET /manager/html HTTP/1.1" 401 2536
+0:0:0:0:0:0:0:1 - admin [26/Dec/2018:09:17:15 +0900] "GET /manager/html HTTP/1.1" 200 21614
+0:0:0:0:0:0:0:1 - - [26/Dec/2018:09:17:15 +0900] "GET /manager/images/tomcat.gif HTTP/1.1" 200 2066
+0:0:0:0:0:0:0:1 - - [26/Dec/2018:09:17:15 +0900] "GET /manager/images/asf-logo.svg HTTP/1.1" 200 20712
+0:0:0:0:0:0:0:1 - admin [26/Dec/2018:09:17:25 +0900] "POST /manager/html/start?path=/TestWeb2&org.apache.catalina.filters.CSRF_NONCE=9FB5EE9BEF8A8FEB2651FC9B7EF61B87 HTTP/1.1" 200 21713
+0:0:0:0:0:0:0:1 - admin [26/Dec/2018:09:26:54 +0900] "POST /manager/html/start?path=/TestWeb2&org.apache.catalina.filters.CSRF_NONCE=FCEAB83E46BF128A447CFBFF398955B1 HTTP/1.1" 200 21713

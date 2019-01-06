@@ -1,0 +1,64 @@
+02-Jan-2019 22:56:43.545 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.10
+02-Jan-2019 22:56:43.571 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 20 2018 17:32:21 UTC
+02-Jan-2019 22:56:43.578 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.10.0
+02-Jan-2019 22:56:43.580 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+02-Jan-2019 22:56:43.581 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+02-Jan-2019 22:56:43.583 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+02-Jan-2019 22:56:43.587 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\kana.katsumata\eclipse-workspace\TestWeb2\jre
+02-Jan-2019 22:56:43.588 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_191-b12
+02-Jan-2019 22:56:43.589 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+02-Jan-2019 22:56:43.589 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\kana.katsumata\eclipse-workspace\TestWeb2\lib\apache-tomcat-9.0.10
+02-Jan-2019 22:56:43.592 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\kana.katsumata\eclipse-workspace\TestWeb2\lib\apache-tomcat-9.0.10
+02-Jan-2019 22:56:43.593 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\kana.katsumata\eclipse-workspace\TestWeb2\lib\apache-tomcat-9.0.10\conf\logging.properties
+02-Jan-2019 22:56:43.594 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+02-Jan-2019 22:56:43.594 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+02-Jan-2019 22:56:43.596 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+02-Jan-2019 22:56:43.598 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+02-Jan-2019 22:56:43.599 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\kana.katsumata\eclipse-workspace\TestWeb2\lib\apache-tomcat-9.0.10
+02-Jan-2019 22:56:43.607 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\kana.katsumata\eclipse-workspace\TestWeb2\lib\apache-tomcat-9.0.10
+02-Jan-2019 22:56:43.609 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\kana.katsumata\eclipse-workspace\TestWeb2\lib\apache-tomcat-9.0.10\temp
+02-Jan-2019 22:56:43.610 情報 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library [1.2.17] using APR version [1.6.3].
+02-Jan-2019 22:56:43.611 情報 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+02-Jan-2019 22:56:43.612 情報 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+02-Jan-2019 22:56:44.727 情報 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.0.2o  27 Mar 2018]
+02-Jan-2019 22:56:45.110 情報 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+02-Jan-2019 22:56:45.455 情報 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+02-Jan-2019 22:56:45.473 情報 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+02-Jan-2019 22:56:45.476 情報 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+02-Jan-2019 22:56:45.477 情報 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 2711 ms
+02-Jan-2019 22:56:45.536 情報 [main] org.apache.catalina.core.StandardService.startInternal サービス [Catalina] を起動します
+02-Jan-2019 22:56:45.537 情報 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.10
+02-Jan-2019 22:56:45.556 情報 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 設定記述子 [C:\Users\kana.katsumata\eclipse-workspace\TestWeb2\lib\apache-tomcat-9.0.10\conf\Catalina\localhost\ADSPSearch.xml] を配備します
+02-Jan-2019 22:56:45.605 警告 [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/ADSPSearch] in deployment descriptor [C:\Users\kana.katsumata\eclipse-workspace\TestWeb2\lib\apache-tomcat-9.0.10\conf\Catalina\localhost\ADSPSearch.xml] has been ignored
+02-Jan-2019 22:56:50.462 情報 [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+02-Jan-2019 22:56:50.611 情報 [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\kana.katsumata\eclipse-workspace\TestWeb2\lib\apache-tomcat-9.0.10\conf\Catalina\localhost\ADSPSearch.xml] has finished in [5,053] ms
+02-Jan-2019 22:56:50.612 情報 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 設定記述子 [C:\Users\kana.katsumata\eclipse-workspace\TestWeb2\lib\apache-tomcat-9.0.10\conf\Catalina\localhost\TestWeb2.xml] を配備します
+02-Jan-2019 22:56:50.616 警告 [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/TestWeb2] in deployment descriptor [C:\Users\kana.katsumata\eclipse-workspace\TestWeb2\lib\apache-tomcat-9.0.10\conf\Catalina\localhost\TestWeb2.xml] has been ignored
+02-Jan-2019 22:56:54.025 情報 [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+02-Jan-2019 22:56:57.014 情報 [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\kana.katsumata\eclipse-workspace\TestWeb2\lib\apache-tomcat-9.0.10\conf\Catalina\localhost\TestWeb2.xml] has finished in [6,402] ms
+02-Jan-2019 22:56:57.016 情報 [main] org.apache.catalina.startup.HostConfig.deployDirectory Webアプリケーションディレクトリ [C:\Users\kana.katsumata\eclipse-workspace\TestWeb2\lib\apache-tomcat-9.0.10\webapps\docs] を配備します
+02-Jan-2019 22:56:58.655 情報 [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+02-Jan-2019 22:56:58.664 情報 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\kana.katsumata\eclipse-workspace\TestWeb2\lib\apache-tomcat-9.0.10\webapps\docs] has finished in [1,648] ms
+02-Jan-2019 22:56:58.669 情報 [main] org.apache.catalina.startup.HostConfig.deployDirectory Webアプリケーションディレクトリ [C:\Users\kana.katsumata\eclipse-workspace\TestWeb2\lib\apache-tomcat-9.0.10\webapps\examples] を配備します
+02-Jan-2019 22:57:01.217 情報 [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+02-Jan-2019 22:57:01.339 情報 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\kana.katsumata\eclipse-workspace\TestWeb2\lib\apache-tomcat-9.0.10\webapps\examples] has finished in [2,669] ms
+02-Jan-2019 22:57:01.346 情報 [main] org.apache.catalina.startup.HostConfig.deployDirectory Webアプリケーションディレクトリ [C:\Users\kana.katsumata\eclipse-workspace\TestWeb2\lib\apache-tomcat-9.0.10\webapps\host-manager] を配備します
+02-Jan-2019 22:57:01.664 情報 [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+02-Jan-2019 22:57:01.674 情報 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\kana.katsumata\eclipse-workspace\TestWeb2\lib\apache-tomcat-9.0.10\webapps\host-manager] has finished in [327] ms
+02-Jan-2019 22:57:01.676 情報 [main] org.apache.catalina.startup.HostConfig.deployDirectory Webアプリケーションディレクトリ [C:\Users\kana.katsumata\eclipse-workspace\TestWeb2\lib\apache-tomcat-9.0.10\webapps\manager] を配備します
+02-Jan-2019 22:57:02.388 情報 [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+02-Jan-2019 22:57:02.396 情報 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\kana.katsumata\eclipse-workspace\TestWeb2\lib\apache-tomcat-9.0.10\webapps\manager] has finished in [721] ms
+02-Jan-2019 22:57:02.401 情報 [main] org.apache.catalina.startup.HostConfig.deployDirectory Webアプリケーションディレクトリ [C:\Users\kana.katsumata\eclipse-workspace\TestWeb2\lib\apache-tomcat-9.0.10\webapps\ROOT] を配備します
+02-Jan-2019 22:57:04.171 情報 [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+02-Jan-2019 22:57:04.177 情報 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\kana.katsumata\eclipse-workspace\TestWeb2\lib\apache-tomcat-9.0.10\webapps\ROOT] has finished in [1,776] ms
+02-Jan-2019 22:57:04.183 情報 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+02-Jan-2019 22:57:04.200 情報 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+02-Jan-2019 22:57:04.211 情報 [main] org.apache.catalina.startup.Catalina.start Server startup in 18733 ms
+02-Jan-2019 23:24:04.678 情報 [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+02-Jan-2019 23:24:04.700 情報 [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+02-Jan-2019 23:24:04.924 情報 [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+02-Jan-2019 23:24:05.121 情報 [main] org.apache.catalina.core.StandardService.stopInternal サービス [Catalina] を停止します
+02-Jan-2019 23:24:05.225 情報 [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+02-Jan-2019 23:24:05.234 情報 [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+02-Jan-2019 23:24:05.240 情報 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+02-Jan-2019 23:24:05.245 情報 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]

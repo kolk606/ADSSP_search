@@ -1,0 +1,7 @@
+2018-08-09 16:37:52 JST LOG:  システムログ取得プロセス (PID 8220)は終了コード1で終了しました
+2018-08-09 16:37:53 JST LOG:  データベースシステムは適切にシャットダウンされませんでした。自動リカバリを行っています
+2018-08-09 16:37:53 JST LOG:  invalid record length at 0/15005B8: wanted 24, got 0
+2018-08-09 16:37:53 JST LOG:  REDOは必要ありません
+2018-08-09 16:37:53 JST LOG:  MultiXact member wraparound protections are now enabled
+2018-08-09 16:37:53 JST LOG:  データベースシステムの接続受付準備が整いました。
+2018-08-09 16:37:53 JST LOG:  自動バキュームランチャプロセス

@@ -1,0 +1,20 @@
+2018-10-25 09:01:11 JST FATAL:  ƒ†[ƒU"kana.katsumata"‚ÌƒpƒXƒ[ƒh”FØ‚É¸”s‚µ‚Ü‚µ‚½
+2018-10-25 09:01:11 JST Ú×:  Role "kana.katsumata" does not exist.
+	Ú‘±‚Ípg_hba.conf‚Ìs82‚Éˆê’v‚µ‚Ü‚µ‚½: "host    all             all             ::1/128                 md5"
+2018-10-25 09:01:17 JST FATAL:  ƒ†[ƒU"kana.katsumata"‚ÌƒpƒXƒ[ƒh”FØ‚É¸”s‚µ‚Ü‚µ‚½
+2018-10-25 09:01:17 JST Ú×:  Role "kana.katsumata" does not exist.
+	Ú‘±‚Ípg_hba.conf‚Ìs82‚Éˆê’v‚µ‚Ü‚µ‚½: "host    all             all             ::1/128                 md5"
+2018-10-25 09:01:46 JST FATAL:  ƒ†[ƒU"kana.katsumata"‚ÌƒpƒXƒ[ƒh”FØ‚É¸”s‚µ‚Ü‚µ‚½
+2018-10-25 09:01:46 JST Ú×:  Role "kana.katsumata" does not exist.
+	Ú‘±‚Ípg_hba.conf‚Ìs82‚Éˆê’v‚µ‚Ü‚µ‚½: "host    all             all             ::1/128                 md5"
+2018-10-25 09:02:25 JST FATAL:  ƒ†[ƒU"kana.katsumata"‚ÌƒpƒXƒ[ƒh”FØ‚É¸”s‚µ‚Ü‚µ‚½
+2018-10-25 09:02:25 JST Ú×:  Role "kana.katsumata" does not exist.
+	Ú‘±‚Ípg_hba.conf‚Ìs82‚Éˆê’v‚µ‚Ü‚µ‚½: "host    all             all             ::1/128                 md5"
+2018-10-25 09:03:27 JST FATAL:  ƒ†[ƒU"postgres"‚ÌƒpƒXƒ[ƒh”FØ‚É¸”s‚µ‚Ü‚µ‚½
+2018-10-25 09:03:27 JST Ú×:  Password does not match for user "postgres".
+	Ú‘±‚Ípg_hba.conf‚Ìs82‚Éˆê’v‚µ‚Ü‚µ‚½: "host    all             all             ::1/128                 md5"
+2018-10-25 09:34:44 JST ERROR:  "adssp_search"ã¾ãŸã¯ãã®è¿‘è¾ºã§æ§‹æ–‡ã‚¨ãƒ©ãƒ¼(æ–‡å­—ä½ç½® 10)
+2018-10-25 09:34:44 JST ã‚¹ãƒ†ãƒ¼ãƒˆãƒ¡ãƒ³ãƒˆ:  select * adssp_search
+	;
+2018-10-25 09:34:55 JST ERROR:  ãƒªãƒ¬ãƒ¼ã‚·ãƒ§ãƒ³"adssp_search"ã¯å­˜åœ¨ã—ã¾ã›ã‚“(æ–‡å­—ä½ç½® 15)
+2018-10-25 09:34:55 JST ã‚¹ãƒ†ãƒ¼ãƒˆãƒ¡ãƒ³ãƒˆ:  select * from adssp_search;

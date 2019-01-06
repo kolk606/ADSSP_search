@@ -1,0 +1,9 @@
+0:0:0:0:0:0:0:1 - - [28/Aug/2018:08:32:06 +0900] "GET /manager/ HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [28/Aug/2018:08:32:06 +0900] "GET /manager/html HTTP/1.1" 401 2536
+0:0:0:0:0:0:0:1 - admin [28/Aug/2018:08:32:10 +0900] "GET /manager/html HTTP/1.1" 200 23997
+0:0:0:0:0:0:0:1 - - [28/Aug/2018:08:32:11 +0900] "GET /favicon.ico HTTP/1.1" 200 21630
+0:0:0:0:0:0:0:1 - - [28/Aug/2018:08:32:16 +0900] "GET /helloworld/ HTTP/1.1" 404 1118
+0:0:0:0:0:0:0:1 - - [28/Aug/2018:08:32:19 +0900] "GET /ADSPSearch/ HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [28/Aug/2018:08:32:20 +0900] "GET /ADSPSearch/hello/HelloWorld.action HTTP/1.1" 404 1145
+0:0:0:0:0:0:0:1 - - [28/Aug/2018:08:32:22 +0900] "GET /ADSPSearch/hello/HelloWorldVM.action HTTP/1.1" 404 1147
+0:0:0:0:0:0:0:1 - - [28/Aug/2018:08:32:56 +0900] "GET /ADSPSearch/hello/HelloWorld.action HTTP/1.1" 404 1145

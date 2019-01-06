@@ -1,0 +1,1600 @@
+26-Dec-2018 08:54:14.236 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.10
+26-Dec-2018 08:54:14.254 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 20 2018 17:32:21 UTC
+26-Dec-2018 08:54:14.256 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.10.0
+26-Dec-2018 08:54:14.256 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+26-Dec-2018 08:54:14.257 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+26-Dec-2018 08:54:14.257 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+26-Dec-2018 08:54:14.257 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\kana.katsumata\eclipse-workspace\TestWeb2\jre
+26-Dec-2018 08:54:14.257 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_191-b12
+26-Dec-2018 08:54:14.257 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+26-Dec-2018 08:54:14.258 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\kana.katsumata\eclipse-workspace\TestWeb2\lib\apache-tomcat-9.0.10
+26-Dec-2018 08:54:14.258 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\kana.katsumata\eclipse-workspace\TestWeb2\lib\apache-tomcat-9.0.10
+26-Dec-2018 08:54:14.264 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\kana.katsumata\eclipse-workspace\TestWeb2\lib\apache-tomcat-9.0.10\conf\logging.properties
+26-Dec-2018 08:54:14.264 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+26-Dec-2018 08:54:14.265 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+26-Dec-2018 08:54:14.267 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+26-Dec-2018 08:54:14.268 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+26-Dec-2018 08:54:14.269 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\kana.katsumata\eclipse-workspace\TestWeb2\lib\apache-tomcat-9.0.10
+26-Dec-2018 08:54:14.269 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\kana.katsumata\eclipse-workspace\TestWeb2\lib\apache-tomcat-9.0.10
+26-Dec-2018 08:54:14.270 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\kana.katsumata\eclipse-workspace\TestWeb2\lib\apache-tomcat-9.0.10\temp
+26-Dec-2018 08:54:14.271 情報 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library [1.2.17] using APR version [1.6.3].
+26-Dec-2018 08:54:14.272 情報 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+26-Dec-2018 08:54:14.272 情報 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+26-Dec-2018 08:54:15.420 情報 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.0.2o  27 Mar 2018]
+26-Dec-2018 08:54:15.981 情報 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+26-Dec-2018 08:54:16.190 情報 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+26-Dec-2018 08:54:16.208 情報 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+26-Dec-2018 08:54:16.210 情報 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+26-Dec-2018 08:54:16.211 情報 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 2937 ms
+26-Dec-2018 08:54:16.286 情報 [main] org.apache.catalina.core.StandardService.startInternal サービス [Catalina] を起動します
+26-Dec-2018 08:54:16.287 情報 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.10
+26-Dec-2018 08:54:16.305 情報 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 設定記述子 [C:\Users\kana.katsumata\eclipse-workspace\TestWeb2\lib\apache-tomcat-9.0.10\conf\Catalina\localhost\ADSPSearch.xml] を配備します
+26-Dec-2018 08:54:16.353 警告 [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/ADSPSearch] in deployment descriptor [C:\Users\kana.katsumata\eclipse-workspace\TestWeb2\lib\apache-tomcat-9.0.10\conf\Catalina\localhost\ADSPSearch.xml] has been ignored
+26-Dec-2018 08:54:16.977 重大 [main] org.apache.catalina.core.ContainerBase.addChildInternal ContainerBase.addChild: start: 
+ org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/ADSPSearch]]
+	at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:441)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:742)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:718)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:703)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:630)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1840)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.util.concurrent.AbstractExecutorService.submit(Unknown Source)
+	at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:525)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:424)
+	at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1585)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:308)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+	at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:424)
+	at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:367)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:966)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:839)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1427)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1417)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.util.concurrent.AbstractExecutorService.submit(Unknown Source)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:943)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:258)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:422)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:770)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:682)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:350)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:492)
+Caused by: java.lang.NoClassDefFoundError: Could not initialize class org.apache.logging.log4j.util.PropertiesUtil
+	at org.apache.logging.log4j.status.StatusLogger.<clinit>(StatusLogger.java:78)
+	at org.apache.logging.log4j.web.Log4jServletContainerInitializer.<clinit>(Log4jServletContainerInitializer.java:37)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Unknown Source)
+	at org.apache.catalina.startup.WebappServiceLoader.loadServices(WebappServiceLoader.java:188)
+	at org.apache.catalina.startup.WebappServiceLoader.load(WebappServiceLoader.java:159)
+	at org.apache.catalina.startup.ContextConfig.processServletContainerInitializers(ContextConfig.java:1651)
+	at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1128)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:765)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:299)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5007)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	... 38 more
+
+26-Dec-2018 08:54:16.985 重大 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 設定記述子 [C:\Users\kana.katsumata\eclipse-workspace\TestWeb2\lib\apache-tomcat-9.0.10\conf\Catalina\localhost\ADSPSearch.xml] を配備中のエラーです
+ java.lang.IllegalStateException: ContainerBase.addChild: start: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/ADSPSearch]]
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:746)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:718)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:703)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:630)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1840)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.util.concurrent.AbstractExecutorService.submit(Unknown Source)
+	at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:525)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:424)
+	at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1585)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:308)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+	at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:424)
+	at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:367)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:966)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:839)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1427)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1417)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.util.concurrent.AbstractExecutorService.submit(Unknown Source)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:943)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:258)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:422)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:770)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:682)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:350)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:492)
+
+26-Dec-2018 08:54:16.992 情報 [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\kana.katsumata\eclipse-workspace\TestWeb2\lib\apache-tomcat-9.0.10\conf\Catalina\localhost\ADSPSearch.xml] has finished in [684] ms
+26-Dec-2018 08:54:16.993 情報 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 設定記述子 [C:\Users\kana.katsumata\eclipse-workspace\TestWeb2\lib\apache-tomcat-9.0.10\conf\Catalina\localhost\TestWeb2.xml] を配備します
+26-Dec-2018 08:54:16.999 警告 [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/TestWeb2] in deployment descriptor [C:\Users\kana.katsumata\eclipse-workspace\TestWeb2\lib\apache-tomcat-9.0.10\conf\Catalina\localhost\TestWeb2.xml] has been ignored
+26-Dec-2018 08:54:17.116 重大 [main] org.apache.catalina.core.ContainerBase.addChildInternal ContainerBase.addChild: start: 
+ org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/TestWeb2]]
+	at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:441)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:742)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:718)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:703)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:630)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1840)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.util.concurrent.AbstractExecutorService.submit(Unknown Source)
+	at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:525)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:424)
+	at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1585)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:308)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+	at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:424)
+	at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:367)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:966)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:839)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1427)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1417)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.util.concurrent.AbstractExecutorService.submit(Unknown Source)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:943)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:258)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:422)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:770)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:682)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:350)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:492)
+Caused by: java.lang.NoClassDefFoundError: Could not initialize class org.apache.logging.log4j.web.Log4jServletContainerInitializer
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Unknown Source)
+	at org.apache.catalina.startup.WebappServiceLoader.loadServices(WebappServiceLoader.java:188)
+	at org.apache.catalina.startup.WebappServiceLoader.load(WebappServiceLoader.java:159)
+	at org.apache.catalina.startup.ContextConfig.processServletContainerInitializers(ContextConfig.java:1651)
+	at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1128)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:765)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:299)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5007)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	... 38 more
+
+26-Dec-2018 08:54:17.133 重大 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 設定記述子 [C:\Users\kana.katsumata\eclipse-workspace\TestWeb2\lib\apache-tomcat-9.0.10\conf\Catalina\localhost\TestWeb2.xml] を配備中のエラーです
+ java.lang.IllegalStateException: ContainerBase.addChild: start: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/TestWeb2]]
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:746)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:718)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:703)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:630)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1840)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.util.concurrent.AbstractExecutorService.submit(Unknown Source)
+	at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:525)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:424)
+	at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1585)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:308)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+	at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:424)
+	at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:367)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:966)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:839)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1427)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1417)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.util.concurrent.AbstractExecutorService.submit(Unknown Source)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:943)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:258)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:422)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:770)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:682)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:350)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:492)
+
+26-Dec-2018 08:54:17.137 情報 [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\kana.katsumata\eclipse-workspace\TestWeb2\lib\apache-tomcat-9.0.10\conf\Catalina\localhost\TestWeb2.xml] has finished in [144] ms
+26-Dec-2018 08:54:17.139 情報 [main] org.apache.catalina.startup.HostConfig.deployDirectory Webアプリケーションディレクトリ [C:\Users\kana.katsumata\eclipse-workspace\TestWeb2\lib\apache-tomcat-9.0.10\webapps\docs] を配備します
+26-Dec-2018 08:54:17.178 重大 [main] org.apache.catalina.core.ContainerBase.addChildInternal ContainerBase.addChild: start: 
+ org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/docs]]
+	at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:441)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:742)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:718)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:703)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1141)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1876)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.util.concurrent.AbstractExecutorService.submit(Unknown Source)
+	at org.apache.catalina.startup.HostConfig.deployDirectories(HostConfig.java:1053)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:428)
+	at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1585)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:308)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+	at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:424)
+	at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:367)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:966)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:839)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1427)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1417)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.util.concurrent.AbstractExecutorService.submit(Unknown Source)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:943)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:258)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:422)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:770)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:682)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:350)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:492)
+Caused by: java.lang.NoClassDefFoundError: Could not initialize class org.apache.logging.log4j.web.Log4jServletContainerInitializer
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Unknown Source)
+	at org.apache.catalina.startup.WebappServiceLoader.loadServices(WebappServiceLoader.java:188)
+	at org.apache.catalina.startup.WebappServiceLoader.load(WebappServiceLoader.java:159)
+	at org.apache.catalina.startup.ContextConfig.processServletContainerInitializers(ContextConfig.java:1651)
+	at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1128)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:765)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:299)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5007)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	... 38 more
+
+26-Dec-2018 08:54:17.185 重大 [main] org.apache.catalina.startup.HostConfig.deployDirectory Webアプリケーションディレクトリ [C:\Users\kana.katsumata\eclipse-workspace\TestWeb2\lib\apache-tomcat-9.0.10\webapps\docs] を配備中のエラーです
+ java.lang.IllegalStateException: ContainerBase.addChild: start: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/docs]]
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:746)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:718)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:703)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1141)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1876)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.util.concurrent.AbstractExecutorService.submit(Unknown Source)
+	at org.apache.catalina.startup.HostConfig.deployDirectories(HostConfig.java:1053)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:428)
+	at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1585)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:308)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+	at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:424)
+	at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:367)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:966)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:839)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1427)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1417)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.util.concurrent.AbstractExecutorService.submit(Unknown Source)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:943)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:258)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:422)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:770)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:682)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:350)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:492)
+
+26-Dec-2018 08:54:17.189 情報 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\kana.katsumata\eclipse-workspace\TestWeb2\lib\apache-tomcat-9.0.10\webapps\docs] has finished in [49] ms
+26-Dec-2018 08:54:17.189 情報 [main] org.apache.catalina.startup.HostConfig.deployDirectory Webアプリケーションディレクトリ [C:\Users\kana.katsumata\eclipse-workspace\TestWeb2\lib\apache-tomcat-9.0.10\webapps\examples] を配備します
+26-Dec-2018 08:54:17.250 重大 [main] org.apache.catalina.core.ContainerBase.addChildInternal ContainerBase.addChild: start: 
+ org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/examples]]
+	at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:441)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:742)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:718)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:703)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1141)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1876)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.util.concurrent.AbstractExecutorService.submit(Unknown Source)
+	at org.apache.catalina.startup.HostConfig.deployDirectories(HostConfig.java:1053)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:428)
+	at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1585)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:308)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+	at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:424)
+	at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:367)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:966)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:839)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1427)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1417)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.util.concurrent.AbstractExecutorService.submit(Unknown Source)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:943)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:258)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:422)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:770)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:682)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:350)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:492)
+Caused by: java.lang.NoClassDefFoundError: Could not initialize class org.apache.logging.log4j.web.Log4jServletContainerInitializer
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Unknown Source)
+	at org.apache.catalina.startup.WebappServiceLoader.loadServices(WebappServiceLoader.java:188)
+	at org.apache.catalina.startup.WebappServiceLoader.load(WebappServiceLoader.java:159)
+	at org.apache.catalina.startup.ContextConfig.processServletContainerInitializers(ContextConfig.java:1651)
+	at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1128)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:765)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:299)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5007)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	... 38 more
+
+26-Dec-2018 08:54:17.283 重大 [main] org.apache.catalina.startup.HostConfig.deployDirectory Webアプリケーションディレクトリ [C:\Users\kana.katsumata\eclipse-workspace\TestWeb2\lib\apache-tomcat-9.0.10\webapps\examples] を配備中のエラーです
+ java.lang.IllegalStateException: ContainerBase.addChild: start: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/examples]]
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:746)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:718)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:703)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1141)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1876)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.util.concurrent.AbstractExecutorService.submit(Unknown Source)
+	at org.apache.catalina.startup.HostConfig.deployDirectories(HostConfig.java:1053)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:428)
+	at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1585)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:308)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+	at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:424)
+	at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:367)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:966)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:839)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1427)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1417)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.util.concurrent.AbstractExecutorService.submit(Unknown Source)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:943)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:258)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:422)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:770)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:682)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:350)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:492)
+
+26-Dec-2018 08:54:17.292 情報 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\kana.katsumata\eclipse-workspace\TestWeb2\lib\apache-tomcat-9.0.10\webapps\examples] has finished in [102] ms
+26-Dec-2018 08:54:17.294 情報 [main] org.apache.catalina.startup.HostConfig.deployDirectory Webアプリケーションディレクトリ [C:\Users\kana.katsumata\eclipse-workspace\TestWeb2\lib\apache-tomcat-9.0.10\webapps\host-manager] を配備します
+26-Dec-2018 08:54:17.359 重大 [main] org.apache.catalina.core.ContainerBase.addChildInternal ContainerBase.addChild: start: 
+ org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/host-manager]]
+	at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:441)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:742)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:718)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:703)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1141)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1876)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.util.concurrent.AbstractExecutorService.submit(Unknown Source)
+	at org.apache.catalina.startup.HostConfig.deployDirectories(HostConfig.java:1053)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:428)
+	at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1585)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:308)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+	at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:424)
+	at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:367)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:966)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:839)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1427)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1417)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.util.concurrent.AbstractExecutorService.submit(Unknown Source)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:943)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:258)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:422)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:770)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:682)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:350)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:492)
+Caused by: java.lang.NoClassDefFoundError: Could not initialize class org.apache.logging.log4j.web.Log4jServletContainerInitializer
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Unknown Source)
+	at org.apache.catalina.startup.WebappServiceLoader.loadServices(WebappServiceLoader.java:188)
+	at org.apache.catalina.startup.WebappServiceLoader.load(WebappServiceLoader.java:159)
+	at org.apache.catalina.startup.ContextConfig.processServletContainerInitializers(ContextConfig.java:1651)
+	at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1128)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:765)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:299)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5007)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	... 38 more
+
+26-Dec-2018 08:54:17.369 重大 [main] org.apache.catalina.startup.HostConfig.deployDirectory Webアプリケーションディレクトリ [C:\Users\kana.katsumata\eclipse-workspace\TestWeb2\lib\apache-tomcat-9.0.10\webapps\host-manager] を配備中のエラーです
+ java.lang.IllegalStateException: ContainerBase.addChild: start: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/host-manager]]
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:746)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:718)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:703)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1141)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1876)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.util.concurrent.AbstractExecutorService.submit(Unknown Source)
+	at org.apache.catalina.startup.HostConfig.deployDirectories(HostConfig.java:1053)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:428)
+	at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1585)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:308)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+	at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:424)
+	at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:367)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:966)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:839)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1427)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1417)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.util.concurrent.AbstractExecutorService.submit(Unknown Source)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:943)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:258)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:422)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:770)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:682)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:350)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:492)
+
+26-Dec-2018 08:54:17.372 情報 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\kana.katsumata\eclipse-workspace\TestWeb2\lib\apache-tomcat-9.0.10\webapps\host-manager] has finished in [78] ms
+26-Dec-2018 08:54:17.374 情報 [main] org.apache.catalina.startup.HostConfig.deployDirectory Webアプリケーションディレクトリ [C:\Users\kana.katsumata\eclipse-workspace\TestWeb2\lib\apache-tomcat-9.0.10\webapps\manager] を配備します
+26-Dec-2018 08:54:17.451 重大 [main] org.apache.catalina.core.ContainerBase.addChildInternal ContainerBase.addChild: start: 
+ org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/manager]]
+	at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:441)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:742)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:718)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:703)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1141)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1876)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.util.concurrent.AbstractExecutorService.submit(Unknown Source)
+	at org.apache.catalina.startup.HostConfig.deployDirectories(HostConfig.java:1053)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:428)
+	at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1585)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:308)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+	at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:424)
+	at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:367)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:966)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:839)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1427)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1417)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.util.concurrent.AbstractExecutorService.submit(Unknown Source)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:943)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:258)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:422)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:770)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:682)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:350)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:492)
+Caused by: java.lang.NoClassDefFoundError: Could not initialize class org.apache.logging.log4j.web.Log4jServletContainerInitializer
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Unknown Source)
+	at org.apache.catalina.startup.WebappServiceLoader.loadServices(WebappServiceLoader.java:188)
+	at org.apache.catalina.startup.WebappServiceLoader.load(WebappServiceLoader.java:159)
+	at org.apache.catalina.startup.ContextConfig.processServletContainerInitializers(ContextConfig.java:1651)
+	at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1128)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:765)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:299)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5007)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	... 38 more
+
+26-Dec-2018 08:54:17.456 重大 [main] org.apache.catalina.startup.HostConfig.deployDirectory Webアプリケーションディレクトリ [C:\Users\kana.katsumata\eclipse-workspace\TestWeb2\lib\apache-tomcat-9.0.10\webapps\manager] を配備中のエラーです
+ java.lang.IllegalStateException: ContainerBase.addChild: start: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/manager]]
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:746)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:718)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:703)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1141)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1876)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.util.concurrent.AbstractExecutorService.submit(Unknown Source)
+	at org.apache.catalina.startup.HostConfig.deployDirectories(HostConfig.java:1053)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:428)
+	at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1585)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:308)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+	at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:424)
+	at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:367)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:966)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:839)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1427)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1417)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.util.concurrent.AbstractExecutorService.submit(Unknown Source)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:943)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:258)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:422)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:770)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:682)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:350)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:492)
+
+26-Dec-2018 08:54:17.460 情報 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\kana.katsumata\eclipse-workspace\TestWeb2\lib\apache-tomcat-9.0.10\webapps\manager] has finished in [85] ms
+26-Dec-2018 08:54:17.461 情報 [main] org.apache.catalina.startup.HostConfig.deployDirectory Webアプリケーションディレクトリ [C:\Users\kana.katsumata\eclipse-workspace\TestWeb2\lib\apache-tomcat-9.0.10\webapps\ROOT] を配備します
+26-Dec-2018 08:54:17.497 重大 [main] org.apache.catalina.core.ContainerBase.addChildInternal ContainerBase.addChild: start: 
+ org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[]]
+	at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:441)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:742)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:718)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:703)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1141)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1876)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.util.concurrent.AbstractExecutorService.submit(Unknown Source)
+	at org.apache.catalina.startup.HostConfig.deployDirectories(HostConfig.java:1053)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:428)
+	at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1585)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:308)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+	at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:424)
+	at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:367)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:966)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:839)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1427)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1417)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.util.concurrent.AbstractExecutorService.submit(Unknown Source)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:943)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:258)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:422)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:770)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:682)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:350)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:492)
+Caused by: java.lang.NoClassDefFoundError: Could not initialize class org.apache.logging.log4j.web.Log4jServletContainerInitializer
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Unknown Source)
+	at org.apache.catalina.startup.WebappServiceLoader.loadServices(WebappServiceLoader.java:188)
+	at org.apache.catalina.startup.WebappServiceLoader.load(WebappServiceLoader.java:159)
+	at org.apache.catalina.startup.ContextConfig.processServletContainerInitializers(ContextConfig.java:1651)
+	at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1128)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:765)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:299)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5007)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	... 38 more
+
+26-Dec-2018 08:54:17.501 重大 [main] org.apache.catalina.startup.HostConfig.deployDirectory Webアプリケーションディレクトリ [C:\Users\kana.katsumata\eclipse-workspace\TestWeb2\lib\apache-tomcat-9.0.10\webapps\ROOT] を配備中のエラーです
+ java.lang.IllegalStateException: ContainerBase.addChild: start: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[]]
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:746)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:718)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:703)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1141)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1876)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.util.concurrent.AbstractExecutorService.submit(Unknown Source)
+	at org.apache.catalina.startup.HostConfig.deployDirectories(HostConfig.java:1053)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:428)
+	at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1585)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:308)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+	at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:424)
+	at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:367)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:966)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:839)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1427)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1417)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.util.concurrent.AbstractExecutorService.submit(Unknown Source)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:943)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:258)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:422)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:770)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:682)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:350)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:492)
+
+26-Dec-2018 08:54:17.505 情報 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\kana.katsumata\eclipse-workspace\TestWeb2\lib\apache-tomcat-9.0.10\webapps\ROOT] has finished in [43] ms
+26-Dec-2018 08:54:17.508 情報 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+26-Dec-2018 08:54:17.529 情報 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+26-Dec-2018 08:54:17.539 情報 [main] org.apache.catalina.startup.Catalina.start Server startup in 1328 ms
+26-Dec-2018 09:13:58.514 情報 [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+26-Dec-2018 09:13:58.673 情報 [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+26-Dec-2018 09:13:58.816 情報 [Thread-5] org.apache.catalina.core.StandardService.stopInternal サービス [Catalina] を停止します
+26-Dec-2018 09:13:58.820 情報 [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+26-Dec-2018 09:13:58.825 情報 [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+26-Dec-2018 09:13:58.829 情報 [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+26-Dec-2018 09:13:58.831 情報 [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+26-Dec-2018 09:14:09.231 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.10
+26-Dec-2018 09:14:09.236 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 20 2018 17:32:21 UTC
+26-Dec-2018 09:14:09.236 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.10.0
+26-Dec-2018 09:14:09.237 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+26-Dec-2018 09:14:09.237 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+26-Dec-2018 09:14:09.237 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+26-Dec-2018 09:14:09.237 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\kana.katsumata\eclipse-workspace\TestWeb2\jre
+26-Dec-2018 09:14:09.238 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_191-b12
+26-Dec-2018 09:14:09.238 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+26-Dec-2018 09:14:09.238 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\kana.katsumata\eclipse-workspace\TestWeb2\lib\apache-tomcat-9.0.10
+26-Dec-2018 09:14:09.239 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\kana.katsumata\eclipse-workspace\TestWeb2\lib\apache-tomcat-9.0.10
+26-Dec-2018 09:14:09.248 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\kana.katsumata\eclipse-workspace\TestWeb2\lib\apache-tomcat-9.0.10\conf\logging.properties
+26-Dec-2018 09:14:09.249 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+26-Dec-2018 09:14:09.249 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+26-Dec-2018 09:14:09.250 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+26-Dec-2018 09:14:09.251 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+26-Dec-2018 09:14:09.252 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\kana.katsumata\eclipse-workspace\TestWeb2\lib\apache-tomcat-9.0.10
+26-Dec-2018 09:14:09.253 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\kana.katsumata\eclipse-workspace\TestWeb2\lib\apache-tomcat-9.0.10
+26-Dec-2018 09:14:09.254 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\kana.katsumata\eclipse-workspace\TestWeb2\lib\apache-tomcat-9.0.10\temp
+26-Dec-2018 09:14:09.254 情報 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library [1.2.17] using APR version [1.6.3].
+26-Dec-2018 09:14:09.255 情報 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+26-Dec-2018 09:14:09.257 情報 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+26-Dec-2018 09:14:10.388 情報 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.0.2o  27 Mar 2018]
+26-Dec-2018 09:14:10.618 情報 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+26-Dec-2018 09:14:10.776 情報 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+26-Dec-2018 09:14:10.793 情報 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+26-Dec-2018 09:14:10.796 情報 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+26-Dec-2018 09:14:10.797 情報 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 2243 ms
+26-Dec-2018 09:14:10.861 情報 [main] org.apache.catalina.core.StandardService.startInternal サービス [Catalina] を起動します
+26-Dec-2018 09:14:10.862 情報 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.10
+26-Dec-2018 09:14:10.877 情報 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 設定記述子 [C:\Users\kana.katsumata\eclipse-workspace\TestWeb2\lib\apache-tomcat-9.0.10\conf\Catalina\localhost\ADSPSearch.xml] を配備します
+26-Dec-2018 09:14:10.912 警告 [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/ADSPSearch] in deployment descriptor [C:\Users\kana.katsumata\eclipse-workspace\TestWeb2\lib\apache-tomcat-9.0.10\conf\Catalina\localhost\ADSPSearch.xml] has been ignored
+26-Dec-2018 09:14:11.305 重大 [main] org.apache.catalina.core.ContainerBase.addChildInternal ContainerBase.addChild: start: 
+ org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/ADSPSearch]]
+	at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:441)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:742)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:718)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:703)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:630)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1840)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.util.concurrent.AbstractExecutorService.submit(Unknown Source)
+	at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:525)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:424)
+	at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1585)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:308)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+	at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:424)
+	at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:367)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:966)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:839)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1427)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1417)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.util.concurrent.AbstractExecutorService.submit(Unknown Source)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:943)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:258)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:422)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:770)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:682)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:350)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:492)
+Caused by: java.lang.NoClassDefFoundError: Could not initialize class org.apache.logging.log4j.util.PropertiesUtil
+	at org.apache.logging.log4j.status.StatusLogger.<clinit>(StatusLogger.java:78)
+	at org.apache.logging.log4j.web.Log4jServletContainerInitializer.<clinit>(Log4jServletContainerInitializer.java:37)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Unknown Source)
+	at org.apache.catalina.startup.WebappServiceLoader.loadServices(WebappServiceLoader.java:188)
+	at org.apache.catalina.startup.WebappServiceLoader.load(WebappServiceLoader.java:159)
+	at org.apache.catalina.startup.ContextConfig.processServletContainerInitializers(ContextConfig.java:1651)
+	at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1128)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:765)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:299)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5007)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	... 38 more
+
+26-Dec-2018 09:14:11.308 重大 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 設定記述子 [C:\Users\kana.katsumata\eclipse-workspace\TestWeb2\lib\apache-tomcat-9.0.10\conf\Catalina\localhost\ADSPSearch.xml] を配備中のエラーです
+ java.lang.IllegalStateException: ContainerBase.addChild: start: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/ADSPSearch]]
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:746)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:718)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:703)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:630)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1840)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.util.concurrent.AbstractExecutorService.submit(Unknown Source)
+	at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:525)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:424)
+	at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1585)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:308)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+	at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:424)
+	at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:367)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:966)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:839)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1427)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1417)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.util.concurrent.AbstractExecutorService.submit(Unknown Source)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:943)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:258)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:422)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:770)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:682)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:350)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:492)
+
+26-Dec-2018 09:14:11.313 情報 [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\kana.katsumata\eclipse-workspace\TestWeb2\lib\apache-tomcat-9.0.10\conf\Catalina\localhost\ADSPSearch.xml] has finished in [434] ms
+26-Dec-2018 09:14:11.314 情報 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 設定記述子 [C:\Users\kana.katsumata\eclipse-workspace\TestWeb2\lib\apache-tomcat-9.0.10\conf\Catalina\localhost\TestWeb2.xml] を配備します
+26-Dec-2018 09:14:11.319 警告 [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/TestWeb2] in deployment descriptor [C:\Users\kana.katsumata\eclipse-workspace\TestWeb2\lib\apache-tomcat-9.0.10\conf\Catalina\localhost\TestWeb2.xml] has been ignored
+26-Dec-2018 09:14:11.425 重大 [main] org.apache.catalina.core.ContainerBase.addChildInternal ContainerBase.addChild: start: 
+ org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/TestWeb2]]
+	at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:441)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:742)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:718)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:703)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:630)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1840)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.util.concurrent.AbstractExecutorService.submit(Unknown Source)
+	at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:525)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:424)
+	at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1585)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:308)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+	at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:424)
+	at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:367)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:966)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:839)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1427)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1417)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.util.concurrent.AbstractExecutorService.submit(Unknown Source)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:943)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:258)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:422)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:770)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:682)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:350)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:492)
+Caused by: java.lang.NoClassDefFoundError: Could not initialize class org.apache.logging.log4j.web.Log4jServletContainerInitializer
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Unknown Source)
+	at org.apache.catalina.startup.WebappServiceLoader.loadServices(WebappServiceLoader.java:188)
+	at org.apache.catalina.startup.WebappServiceLoader.load(WebappServiceLoader.java:159)
+	at org.apache.catalina.startup.ContextConfig.processServletContainerInitializers(ContextConfig.java:1651)
+	at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1128)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:765)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:299)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5007)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	... 38 more
+
+26-Dec-2018 09:14:11.444 重大 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 設定記述子 [C:\Users\kana.katsumata\eclipse-workspace\TestWeb2\lib\apache-tomcat-9.0.10\conf\Catalina\localhost\TestWeb2.xml] を配備中のエラーです
+ java.lang.IllegalStateException: ContainerBase.addChild: start: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/TestWeb2]]
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:746)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:718)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:703)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:630)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1840)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.util.concurrent.AbstractExecutorService.submit(Unknown Source)
+	at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:525)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:424)
+	at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1585)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:308)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+	at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:424)
+	at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:367)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:966)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:839)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1427)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1417)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.util.concurrent.AbstractExecutorService.submit(Unknown Source)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:943)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:258)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:422)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:770)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:682)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:350)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:492)
+
+26-Dec-2018 09:14:11.450 情報 [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\kana.katsumata\eclipse-workspace\TestWeb2\lib\apache-tomcat-9.0.10\conf\Catalina\localhost\TestWeb2.xml] has finished in [136] ms
+26-Dec-2018 09:14:11.452 情報 [main] org.apache.catalina.startup.HostConfig.deployDirectory Webアプリケーションディレクトリ [C:\Users\kana.katsumata\eclipse-workspace\TestWeb2\lib\apache-tomcat-9.0.10\webapps\docs] を配備します
+26-Dec-2018 09:14:11.488 重大 [main] org.apache.catalina.core.ContainerBase.addChildInternal ContainerBase.addChild: start: 
+ org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/docs]]
+	at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:441)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:742)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:718)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:703)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1141)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1876)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.util.concurrent.AbstractExecutorService.submit(Unknown Source)
+	at org.apache.catalina.startup.HostConfig.deployDirectories(HostConfig.java:1053)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:428)
+	at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1585)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:308)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+	at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:424)
+	at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:367)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:966)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:839)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1427)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1417)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.util.concurrent.AbstractExecutorService.submit(Unknown Source)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:943)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:258)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:422)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:770)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:682)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:350)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:492)
+Caused by: java.lang.NoClassDefFoundError: Could not initialize class org.apache.logging.log4j.web.Log4jServletContainerInitializer
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Unknown Source)
+	at org.apache.catalina.startup.WebappServiceLoader.loadServices(WebappServiceLoader.java:188)
+	at org.apache.catalina.startup.WebappServiceLoader.load(WebappServiceLoader.java:159)
+	at org.apache.catalina.startup.ContextConfig.processServletContainerInitializers(ContextConfig.java:1651)
+	at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1128)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:765)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:299)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5007)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	... 38 more
+
+26-Dec-2018 09:14:11.494 重大 [main] org.apache.catalina.startup.HostConfig.deployDirectory Webアプリケーションディレクトリ [C:\Users\kana.katsumata\eclipse-workspace\TestWeb2\lib\apache-tomcat-9.0.10\webapps\docs] を配備中のエラーです
+ java.lang.IllegalStateException: ContainerBase.addChild: start: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/docs]]
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:746)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:718)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:703)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1141)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1876)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.util.concurrent.AbstractExecutorService.submit(Unknown Source)
+	at org.apache.catalina.startup.HostConfig.deployDirectories(HostConfig.java:1053)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:428)
+	at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1585)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:308)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+	at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:424)
+	at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:367)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:966)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:839)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1427)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1417)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.util.concurrent.AbstractExecutorService.submit(Unknown Source)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:943)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:258)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:422)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:770)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:682)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:350)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:492)
+
+26-Dec-2018 09:14:11.501 情報 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\kana.katsumata\eclipse-workspace\TestWeb2\lib\apache-tomcat-9.0.10\webapps\docs] has finished in [49] ms
+26-Dec-2018 09:14:11.502 情報 [main] org.apache.catalina.startup.HostConfig.deployDirectory Webアプリケーションディレクトリ [C:\Users\kana.katsumata\eclipse-workspace\TestWeb2\lib\apache-tomcat-9.0.10\webapps\examples] を配備します
+26-Dec-2018 09:14:11.586 重大 [main] org.apache.catalina.core.ContainerBase.addChildInternal ContainerBase.addChild: start: 
+ org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/examples]]
+	at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:441)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:742)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:718)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:703)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1141)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1876)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.util.concurrent.AbstractExecutorService.submit(Unknown Source)
+	at org.apache.catalina.startup.HostConfig.deployDirectories(HostConfig.java:1053)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:428)
+	at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1585)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:308)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+	at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:424)
+	at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:367)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:966)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:839)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1427)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1417)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.util.concurrent.AbstractExecutorService.submit(Unknown Source)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:943)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:258)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:422)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:770)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:682)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:350)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:492)
+Caused by: java.lang.NoClassDefFoundError: Could not initialize class org.apache.logging.log4j.web.Log4jServletContainerInitializer
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Unknown Source)
+	at org.apache.catalina.startup.WebappServiceLoader.loadServices(WebappServiceLoader.java:188)
+	at org.apache.catalina.startup.WebappServiceLoader.load(WebappServiceLoader.java:159)
+	at org.apache.catalina.startup.ContextConfig.processServletContainerInitializers(ContextConfig.java:1651)
+	at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1128)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:765)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:299)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5007)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	... 38 more
+
+26-Dec-2018 09:14:11.605 重大 [main] org.apache.catalina.startup.HostConfig.deployDirectory Webアプリケーションディレクトリ [C:\Users\kana.katsumata\eclipse-workspace\TestWeb2\lib\apache-tomcat-9.0.10\webapps\examples] を配備中のエラーです
+ java.lang.IllegalStateException: ContainerBase.addChild: start: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/examples]]
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:746)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:718)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:703)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1141)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1876)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.util.concurrent.AbstractExecutorService.submit(Unknown Source)
+	at org.apache.catalina.startup.HostConfig.deployDirectories(HostConfig.java:1053)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:428)
+	at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1585)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:308)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+	at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:424)
+	at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:367)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:966)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:839)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1427)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1417)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.util.concurrent.AbstractExecutorService.submit(Unknown Source)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:943)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:258)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:422)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:770)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:682)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:350)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:492)
+
+26-Dec-2018 09:14:11.619 情報 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\kana.katsumata\eclipse-workspace\TestWeb2\lib\apache-tomcat-9.0.10\webapps\examples] has finished in [117] ms
+26-Dec-2018 09:14:11.622 情報 [main] org.apache.catalina.startup.HostConfig.deployDirectory Webアプリケーションディレクトリ [C:\Users\kana.katsumata\eclipse-workspace\TestWeb2\lib\apache-tomcat-9.0.10\webapps\host-manager] を配備します
+26-Dec-2018 09:14:11.686 重大 [main] org.apache.catalina.core.ContainerBase.addChildInternal ContainerBase.addChild: start: 
+ org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/host-manager]]
+	at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:441)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:742)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:718)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:703)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1141)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1876)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.util.concurrent.AbstractExecutorService.submit(Unknown Source)
+	at org.apache.catalina.startup.HostConfig.deployDirectories(HostConfig.java:1053)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:428)
+	at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1585)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:308)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+	at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:424)
+	at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:367)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:966)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:839)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1427)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1417)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.util.concurrent.AbstractExecutorService.submit(Unknown Source)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:943)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:258)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:422)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:770)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:682)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:350)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:492)
+Caused by: java.lang.NoClassDefFoundError: Could not initialize class org.apache.logging.log4j.web.Log4jServletContainerInitializer
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Unknown Source)
+	at org.apache.catalina.startup.WebappServiceLoader.loadServices(WebappServiceLoader.java:188)
+	at org.apache.catalina.startup.WebappServiceLoader.load(WebappServiceLoader.java:159)
+	at org.apache.catalina.startup.ContextConfig.processServletContainerInitializers(ContextConfig.java:1651)
+	at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1128)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:765)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:299)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5007)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	... 38 more
+
+26-Dec-2018 09:14:11.689 重大 [main] org.apache.catalina.startup.HostConfig.deployDirectory Webアプリケーションディレクトリ [C:\Users\kana.katsumata\eclipse-workspace\TestWeb2\lib\apache-tomcat-9.0.10\webapps\host-manager] を配備中のエラーです
+ java.lang.IllegalStateException: ContainerBase.addChild: start: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/host-manager]]
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:746)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:718)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:703)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1141)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1876)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.util.concurrent.AbstractExecutorService.submit(Unknown Source)
+	at org.apache.catalina.startup.HostConfig.deployDirectories(HostConfig.java:1053)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:428)
+	at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1585)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:308)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+	at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:424)
+	at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:367)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:966)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:839)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1427)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1417)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.util.concurrent.AbstractExecutorService.submit(Unknown Source)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:943)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:258)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:422)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:770)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:682)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:350)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:492)
+
+26-Dec-2018 09:14:11.696 情報 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\kana.katsumata\eclipse-workspace\TestWeb2\lib\apache-tomcat-9.0.10\webapps\host-manager] has finished in [75] ms
+26-Dec-2018 09:14:11.702 情報 [main] org.apache.catalina.startup.HostConfig.deployDirectory Webアプリケーションディレクトリ [C:\Users\kana.katsumata\eclipse-workspace\TestWeb2\lib\apache-tomcat-9.0.10\webapps\manager] を配備します
+26-Dec-2018 09:14:11.761 重大 [main] org.apache.catalina.core.ContainerBase.addChildInternal ContainerBase.addChild: start: 
+ org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/manager]]
+	at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:441)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:742)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:718)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:703)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1141)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1876)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.util.concurrent.AbstractExecutorService.submit(Unknown Source)
+	at org.apache.catalina.startup.HostConfig.deployDirectories(HostConfig.java:1053)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:428)
+	at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1585)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:308)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+	at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:424)
+	at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:367)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:966)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:839)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1427)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1417)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.util.concurrent.AbstractExecutorService.submit(Unknown Source)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:943)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:258)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:422)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:770)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:682)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:350)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:492)
+Caused by: java.lang.NoClassDefFoundError: Could not initialize class org.apache.logging.log4j.web.Log4jServletContainerInitializer
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Unknown Source)
+	at org.apache.catalina.startup.WebappServiceLoader.loadServices(WebappServiceLoader.java:188)
+	at org.apache.catalina.startup.WebappServiceLoader.load(WebappServiceLoader.java:159)
+	at org.apache.catalina.startup.ContextConfig.processServletContainerInitializers(ContextConfig.java:1651)
+	at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1128)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:765)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:299)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5007)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	... 38 more
+
+26-Dec-2018 09:14:11.771 重大 [main] org.apache.catalina.startup.HostConfig.deployDirectory Webアプリケーションディレクトリ [C:\Users\kana.katsumata\eclipse-workspace\TestWeb2\lib\apache-tomcat-9.0.10\webapps\manager] を配備中のエラーです
+ java.lang.IllegalStateException: ContainerBase.addChild: start: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/manager]]
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:746)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:718)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:703)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1141)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1876)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.util.concurrent.AbstractExecutorService.submit(Unknown Source)
+	at org.apache.catalina.startup.HostConfig.deployDirectories(HostConfig.java:1053)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:428)
+	at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1585)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:308)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+	at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:424)
+	at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:367)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:966)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:839)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1427)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1417)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.util.concurrent.AbstractExecutorService.submit(Unknown Source)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:943)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:258)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:422)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:770)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:682)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:350)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:492)
+
+26-Dec-2018 09:14:11.774 情報 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\kana.katsumata\eclipse-workspace\TestWeb2\lib\apache-tomcat-9.0.10\webapps\manager] has finished in [71] ms
+26-Dec-2018 09:14:11.774 情報 [main] org.apache.catalina.startup.HostConfig.deployDirectory Webアプリケーションディレクトリ [C:\Users\kana.katsumata\eclipse-workspace\TestWeb2\lib\apache-tomcat-9.0.10\webapps\ROOT] を配備します
+26-Dec-2018 09:14:11.824 重大 [main] org.apache.catalina.core.ContainerBase.addChildInternal ContainerBase.addChild: start: 
+ org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[]]
+	at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:441)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:742)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:718)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:703)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1141)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1876)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.util.concurrent.AbstractExecutorService.submit(Unknown Source)
+	at org.apache.catalina.startup.HostConfig.deployDirectories(HostConfig.java:1053)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:428)
+	at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1585)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:308)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+	at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:424)
+	at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:367)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:966)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:839)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1427)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1417)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.util.concurrent.AbstractExecutorService.submit(Unknown Source)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:943)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:258)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:422)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:770)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:682)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:350)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:492)
+Caused by: java.lang.NoClassDefFoundError: Could not initialize class org.apache.logging.log4j.web.Log4jServletContainerInitializer
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Unknown Source)
+	at org.apache.catalina.startup.WebappServiceLoader.loadServices(WebappServiceLoader.java:188)
+	at org.apache.catalina.startup.WebappServiceLoader.load(WebappServiceLoader.java:159)
+	at org.apache.catalina.startup.ContextConfig.processServletContainerInitializers(ContextConfig.java:1651)
+	at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1128)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:765)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:299)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5007)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	... 38 more
+
+26-Dec-2018 09:14:11.836 重大 [main] org.apache.catalina.startup.HostConfig.deployDirectory Webアプリケーションディレクトリ [C:\Users\kana.katsumata\eclipse-workspace\TestWeb2\lib\apache-tomcat-9.0.10\webapps\ROOT] を配備中のエラーです
+ java.lang.IllegalStateException: ContainerBase.addChild: start: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[]]
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:746)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:718)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:703)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1141)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1876)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.util.concurrent.AbstractExecutorService.submit(Unknown Source)
+	at org.apache.catalina.startup.HostConfig.deployDirectories(HostConfig.java:1053)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:428)
+	at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1585)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:308)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+	at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:424)
+	at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:367)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:966)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:839)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1427)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1417)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.util.concurrent.AbstractExecutorService.submit(Unknown Source)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:943)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:258)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:422)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:770)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:682)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:350)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:492)
+
+26-Dec-2018 09:14:11.844 情報 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\kana.katsumata\eclipse-workspace\TestWeb2\lib\apache-tomcat-9.0.10\webapps\ROOT] has finished in [70] ms
+26-Dec-2018 09:14:11.848 情報 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+26-Dec-2018 09:14:11.870 情報 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+26-Dec-2018 09:14:11.876 情報 [main] org.apache.catalina.startup.Catalina.start Server startup in 1078 ms
+26-Dec-2018 09:15:19.588 情報 [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+26-Dec-2018 09:15:19.742 情報 [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+26-Dec-2018 09:15:19.896 情報 [Thread-5] org.apache.catalina.core.StandardService.stopInternal サービス [Catalina] を停止します
+26-Dec-2018 09:15:19.898 情報 [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+26-Dec-2018 09:15:19.904 情報 [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+26-Dec-2018 09:15:19.907 情報 [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+26-Dec-2018 09:15:19.908 情報 [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+26-Dec-2018 09:15:46.596 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.10
+26-Dec-2018 09:15:46.603 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 20 2018 17:32:21 UTC
+26-Dec-2018 09:15:46.609 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.10.0
+26-Dec-2018 09:15:46.610 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+26-Dec-2018 09:15:46.611 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+26-Dec-2018 09:15:46.612 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+26-Dec-2018 09:15:46.612 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\kana.katsumata\eclipse-workspace\TestWeb2\jre
+26-Dec-2018 09:15:46.613 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_191-b12
+26-Dec-2018 09:15:46.614 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+26-Dec-2018 09:15:46.615 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\kana.katsumata\eclipse-workspace\TestWeb2\lib\apache-tomcat-9.0.10
+26-Dec-2018 09:15:46.616 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\kana.katsumata\eclipse-workspace\TestWeb2\lib\apache-tomcat-9.0.10
+26-Dec-2018 09:15:46.616 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\kana.katsumata\eclipse-workspace\TestWeb2\lib\apache-tomcat-9.0.10\conf\logging.properties
+26-Dec-2018 09:15:46.617 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+26-Dec-2018 09:15:46.617 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+26-Dec-2018 09:15:46.618 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+26-Dec-2018 09:15:46.619 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+26-Dec-2018 09:15:46.620 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\kana.katsumata\eclipse-workspace\TestWeb2\lib\apache-tomcat-9.0.10
+26-Dec-2018 09:15:46.621 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\kana.katsumata\eclipse-workspace\TestWeb2\lib\apache-tomcat-9.0.10
+26-Dec-2018 09:15:46.624 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\kana.katsumata\eclipse-workspace\TestWeb2\lib\apache-tomcat-9.0.10\temp
+26-Dec-2018 09:15:46.624 情報 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library [1.2.17] using APR version [1.6.3].
+26-Dec-2018 09:15:46.626 情報 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+26-Dec-2018 09:15:46.627 情報 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+26-Dec-2018 09:15:47.718 情報 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.0.2o  27 Mar 2018]
+26-Dec-2018 09:15:47.947 情報 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+26-Dec-2018 09:15:48.140 情報 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+26-Dec-2018 09:15:48.152 情報 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+26-Dec-2018 09:15:48.154 情報 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+26-Dec-2018 09:15:48.155 情報 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 2245 ms
+26-Dec-2018 09:15:48.209 情報 [main] org.apache.catalina.core.StandardService.startInternal サービス [Catalina] を起動します
+26-Dec-2018 09:15:48.210 情報 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.10
+26-Dec-2018 09:15:48.229 情報 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 設定記述子 [C:\Users\kana.katsumata\eclipse-workspace\TestWeb2\lib\apache-tomcat-9.0.10\conf\Catalina\localhost\ADSPSearch.xml] を配備します
+26-Dec-2018 09:15:48.271 警告 [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/ADSPSearch] in deployment descriptor [C:\Users\kana.katsumata\eclipse-workspace\TestWeb2\lib\apache-tomcat-9.0.10\conf\Catalina\localhost\ADSPSearch.xml] has been ignored
+26-Dec-2018 09:15:52.952 情報 [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Dec-2018 09:15:53.076 情報 [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\kana.katsumata\eclipse-workspace\TestWeb2\lib\apache-tomcat-9.0.10\conf\Catalina\localhost\ADSPSearch.xml] has finished in [4,846] ms
+26-Dec-2018 09:15:53.077 情報 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 設定記述子 [C:\Users\kana.katsumata\eclipse-workspace\TestWeb2\lib\apache-tomcat-9.0.10\conf\Catalina\localhost\TestWeb2.xml] を配備します
+26-Dec-2018 09:15:53.079 警告 [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/TestWeb2] in deployment descriptor [C:\Users\kana.katsumata\eclipse-workspace\TestWeb2\lib\apache-tomcat-9.0.10\conf\Catalina\localhost\TestWeb2.xml] has been ignored
+26-Dec-2018 09:15:56.491 情報 [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Dec-2018 09:15:59.976 重大 [main] org.apache.catalina.core.StandardContext.startInternal One or more Filters failed to start. Full details will be found in the appropriate container log file
+26-Dec-2018 09:15:59.981 重大 [main] org.apache.catalina.core.StandardContext.startInternal 以前のエラーのためにコンテキストの起動が失敗しました [/TestWeb2]
+26-Dec-2018 09:16:00.002 情報 [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\kana.katsumata\eclipse-workspace\TestWeb2\lib\apache-tomcat-9.0.10\conf\Catalina\localhost\TestWeb2.xml] has finished in [6,924] ms
+26-Dec-2018 09:16:00.018 情報 [main] org.apache.catalina.startup.HostConfig.deployDirectory Webアプリケーションディレクトリ [C:\Users\kana.katsumata\eclipse-workspace\TestWeb2\lib\apache-tomcat-9.0.10\webapps\docs] を配備します
+26-Dec-2018 09:16:01.566 情報 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\kana.katsumata\eclipse-workspace\TestWeb2\lib\apache-tomcat-9.0.10\webapps\docs] has finished in [1,548] ms
+26-Dec-2018 09:16:01.567 情報 [main] org.apache.catalina.startup.HostConfig.deployDirectory Webアプリケーションディレクトリ [C:\Users\kana.katsumata\eclipse-workspace\TestWeb2\lib\apache-tomcat-9.0.10\webapps\examples] を配備します
+26-Dec-2018 09:16:03.803 情報 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\kana.katsumata\eclipse-workspace\TestWeb2\lib\apache-tomcat-9.0.10\webapps\examples] has finished in [2,236] ms
+26-Dec-2018 09:16:03.814 情報 [main] org.apache.catalina.startup.HostConfig.deployDirectory Webアプリケーションディレクトリ [C:\Users\kana.katsumata\eclipse-workspace\TestWeb2\lib\apache-tomcat-9.0.10\webapps\host-manager] を配備します
+26-Dec-2018 09:16:03.953 情報 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\kana.katsumata\eclipse-workspace\TestWeb2\lib\apache-tomcat-9.0.10\webapps\host-manager] has finished in [139] ms
+26-Dec-2018 09:16:03.958 情報 [main] org.apache.catalina.startup.HostConfig.deployDirectory Webアプリケーションディレクトリ [C:\Users\kana.katsumata\eclipse-workspace\TestWeb2\lib\apache-tomcat-9.0.10\webapps\manager] を配備します
+26-Dec-2018 09:16:04.166 情報 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\kana.katsumata\eclipse-workspace\TestWeb2\lib\apache-tomcat-9.0.10\webapps\manager] has finished in [208] ms
+26-Dec-2018 09:16:04.187 情報 [main] org.apache.catalina.startup.HostConfig.deployDirectory Webアプリケーションディレクトリ [C:\Users\kana.katsumata\eclipse-workspace\TestWeb2\lib\apache-tomcat-9.0.10\webapps\ROOT] を配備します
+26-Dec-2018 09:16:06.319 情報 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\kana.katsumata\eclipse-workspace\TestWeb2\lib\apache-tomcat-9.0.10\webapps\ROOT] has finished in [2,132] ms
+26-Dec-2018 09:16:06.324 情報 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+26-Dec-2018 09:16:06.341 情報 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+26-Dec-2018 09:16:06.354 情報 [main] org.apache.catalina.startup.Catalina.start Server startup in 18199 ms
+26-Dec-2018 09:17:23.342 情報 [http-nio-8080-exec-6] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Dec-2018 09:17:25.249 重大 [http-nio-8080-exec-6] org.apache.catalina.core.StandardContext.startInternal One or more Filters failed to start. Full details will be found in the appropriate container log file
+26-Dec-2018 09:17:25.253 重大 [http-nio-8080-exec-6] org.apache.catalina.core.StandardContext.startInternal 以前のエラーのためにコンテキストの起動が失敗しました [/TestWeb2]
+26-Dec-2018 09:26:52.737 情報 [http-nio-8080-exec-11] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Dec-2018 09:26:54.340 重大 [http-nio-8080-exec-11] org.apache.catalina.core.StandardContext.startInternal One or more Filters failed to start. Full details will be found in the appropriate container log file
+26-Dec-2018 09:26:54.342 重大 [http-nio-8080-exec-11] org.apache.catalina.core.StandardContext.startInternal 以前のエラーのためにコンテキストの起動が失敗しました [/TestWeb2]
+26-Dec-2018 09:27:38.943 情報 [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+26-Dec-2018 09:27:39.055 情報 [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+26-Dec-2018 09:27:39.205 情報 [Thread-5] org.apache.catalina.core.StandardService.stopInternal サービス [Catalina] を停止します
+26-Dec-2018 09:27:39.260 情報 [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+26-Dec-2018 09:27:39.263 情報 [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+26-Dec-2018 09:27:39.269 情報 [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+26-Dec-2018 09:27:39.270 情報 [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+26-Dec-2018 09:27:47.016 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.10
+26-Dec-2018 09:27:47.022 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 20 2018 17:32:21 UTC
+26-Dec-2018 09:27:47.022 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.10.0
+26-Dec-2018 09:27:47.022 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+26-Dec-2018 09:27:47.023 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+26-Dec-2018 09:27:47.023 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+26-Dec-2018 09:27:47.024 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\kana.katsumata\eclipse-workspace\TestWeb2\jre
+26-Dec-2018 09:27:47.025 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_191-b12
+26-Dec-2018 09:27:47.025 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+26-Dec-2018 09:27:47.027 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\kana.katsumata\eclipse-workspace\TestWeb2\lib\apache-tomcat-9.0.10
+26-Dec-2018 09:27:47.028 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\kana.katsumata\eclipse-workspace\TestWeb2\lib\apache-tomcat-9.0.10
+26-Dec-2018 09:27:47.029 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\kana.katsumata\eclipse-workspace\TestWeb2\lib\apache-tomcat-9.0.10\conf\logging.properties
+26-Dec-2018 09:27:47.029 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+26-Dec-2018 09:27:47.030 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+26-Dec-2018 09:27:47.031 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+26-Dec-2018 09:27:47.033 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+26-Dec-2018 09:27:47.033 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\kana.katsumata\eclipse-workspace\TestWeb2\lib\apache-tomcat-9.0.10
+26-Dec-2018 09:27:47.034 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\kana.katsumata\eclipse-workspace\TestWeb2\lib\apache-tomcat-9.0.10
+26-Dec-2018 09:27:47.035 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\kana.katsumata\eclipse-workspace\TestWeb2\lib\apache-tomcat-9.0.10\temp
+26-Dec-2018 09:27:47.035 情報 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library [1.2.17] using APR version [1.6.3].
+26-Dec-2018 09:27:47.036 情報 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+26-Dec-2018 09:27:47.036 情報 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+26-Dec-2018 09:27:48.162 情報 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.0.2o  27 Mar 2018]
+26-Dec-2018 09:27:48.368 情報 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+26-Dec-2018 09:27:48.577 情報 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+26-Dec-2018 09:27:48.588 情報 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+26-Dec-2018 09:27:48.591 情報 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+26-Dec-2018 09:27:48.593 情報 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 2288 ms
+26-Dec-2018 09:27:48.662 情報 [main] org.apache.catalina.core.StandardService.startInternal サービス [Catalina] を起動します
+26-Dec-2018 09:27:48.664 情報 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.10
+26-Dec-2018 09:27:48.686 情報 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 設定記述子 [C:\Users\kana.katsumata\eclipse-workspace\TestWeb2\lib\apache-tomcat-9.0.10\conf\Catalina\localhost\ADSPSearch.xml] を配備します
+26-Dec-2018 09:27:48.737 警告 [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/ADSPSearch] in deployment descriptor [C:\Users\kana.katsumata\eclipse-workspace\TestWeb2\lib\apache-tomcat-9.0.10\conf\Catalina\localhost\ADSPSearch.xml] has been ignored
+26-Dec-2018 09:27:52.604 情報 [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Dec-2018 09:27:52.693 情報 [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\kana.katsumata\eclipse-workspace\TestWeb2\lib\apache-tomcat-9.0.10\conf\Catalina\localhost\ADSPSearch.xml] has finished in [4,005] ms
+26-Dec-2018 09:27:52.696 情報 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 設定記述子 [C:\Users\kana.katsumata\eclipse-workspace\TestWeb2\lib\apache-tomcat-9.0.10\conf\Catalina\localhost\TestWeb2.xml] を配備します
+26-Dec-2018 09:27:52.700 警告 [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/TestWeb2] in deployment descriptor [C:\Users\kana.katsumata\eclipse-workspace\TestWeb2\lib\apache-tomcat-9.0.10\conf\Catalina\localhost\TestWeb2.xml] has been ignored
+26-Dec-2018 09:27:56.153 情報 [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Dec-2018 09:27:58.941 重大 [main] org.apache.catalina.core.StandardContext.startInternal One or more Filters failed to start. Full details will be found in the appropriate container log file
+26-Dec-2018 09:27:58.942 重大 [main] org.apache.catalina.core.StandardContext.startInternal 以前のエラーのためにコンテキストの起動が失敗しました [/TestWeb2]
+26-Dec-2018 09:27:58.957 情報 [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\kana.katsumata\eclipse-workspace\TestWeb2\lib\apache-tomcat-9.0.10\conf\Catalina\localhost\TestWeb2.xml] has finished in [6,262] ms
+26-Dec-2018 09:27:58.960 情報 [main] org.apache.catalina.startup.HostConfig.deployDirectory Webアプリケーションディレクトリ [C:\Users\kana.katsumata\eclipse-workspace\TestWeb2\lib\apache-tomcat-9.0.10\webapps\docs] を配備します
+26-Dec-2018 09:28:00.296 情報 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\kana.katsumata\eclipse-workspace\TestWeb2\lib\apache-tomcat-9.0.10\webapps\docs] has finished in [1,335] ms
+26-Dec-2018 09:28:00.297 情報 [main] org.apache.catalina.startup.HostConfig.deployDirectory Webアプリケーションディレクトリ [C:\Users\kana.katsumata\eclipse-workspace\TestWeb2\lib\apache-tomcat-9.0.10\webapps\examples] を配備します
+26-Dec-2018 09:28:02.877 情報 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\kana.katsumata\eclipse-workspace\TestWeb2\lib\apache-tomcat-9.0.10\webapps\examples] has finished in [2,580] ms
+26-Dec-2018 09:28:02.882 情報 [main] org.apache.catalina.startup.HostConfig.deployDirectory Webアプリケーションディレクトリ [C:\Users\kana.katsumata\eclipse-workspace\TestWeb2\lib\apache-tomcat-9.0.10\webapps\host-manager] を配備します
+26-Dec-2018 09:28:02.962 情報 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\kana.katsumata\eclipse-workspace\TestWeb2\lib\apache-tomcat-9.0.10\webapps\host-manager] has finished in [81] ms
+26-Dec-2018 09:28:02.968 情報 [main] org.apache.catalina.startup.HostConfig.deployDirectory Webアプリケーションディレクトリ [C:\Users\kana.katsumata\eclipse-workspace\TestWeb2\lib\apache-tomcat-9.0.10\webapps\manager] を配備します
+26-Dec-2018 09:28:03.081 情報 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\kana.katsumata\eclipse-workspace\TestWeb2\lib\apache-tomcat-9.0.10\webapps\manager] has finished in [113] ms
+26-Dec-2018 09:28:03.084 情報 [main] org.apache.catalina.startup.HostConfig.deployDirectory Webアプリケーションディレクトリ [C:\Users\kana.katsumata\eclipse-workspace\TestWeb2\lib\apache-tomcat-9.0.10\webapps\ROOT] を配備します
+26-Dec-2018 09:28:05.327 情報 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\kana.katsumata\eclipse-workspace\TestWeb2\lib\apache-tomcat-9.0.10\webapps\ROOT] has finished in [2,242] ms
+26-Dec-2018 09:28:05.333 情報 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+26-Dec-2018 09:28:05.350 情報 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+26-Dec-2018 09:28:05.356 情報 [main] org.apache.catalina.startup.Catalina.start Server startup in 16762 ms
+26-Dec-2018 09:28:59.056 情報 [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+26-Dec-2018 09:28:59.240 情報 [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+26-Dec-2018 09:28:59.366 情報 [Thread-5] org.apache.catalina.core.StandardService.stopInternal サービス [Catalina] を停止します
+26-Dec-2018 09:28:59.443 情報 [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+26-Dec-2018 09:28:59.455 情報 [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+26-Dec-2018 09:28:59.460 情報 [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+26-Dec-2018 09:28:59.461 情報 [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]

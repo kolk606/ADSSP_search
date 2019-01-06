@@ -1,0 +1,17 @@
+0:0:0:0:0:0:0:1 - - [16/Aug/2018:23:23:54 +0900] "GET /manager/html/ HTTP/1.1" 401 2536
+0:0:0:0:0:0:0:1 - - [16/Aug/2018:23:23:56 +0900] "GET /favicon.ico HTTP/1.1" 200 21630
+0:0:0:0:0:0:0:1 - - [16/Aug/2018:23:24:05 +0900] "GET /manager/html/ HTTP/1.1" 401 2536
+0:0:0:0:0:0:0:1 - - [16/Aug/2018:23:24:12 +0900] "GET /manager/html/ HTTP/1.1" 401 2536
+0:0:0:0:0:0:0:1 - - [16/Aug/2018:23:32:32 +0900] "GET /manager/html/ HTTP/1.1" 401 2536
+0:0:0:0:0:0:0:1 - - [16/Aug/2018:23:32:40 +0900] "GET /manager/images/tomcat.gif HTTP/1.1" 200 2066
+0:0:0:0:0:0:0:1 - admin [16/Aug/2018:23:32:40 +0900] "GET /manager/html/ HTTP/1.1" 200 21962
+0:0:0:0:0:0:0:1 - - [16/Aug/2018:23:32:40 +0900] "GET /manager/images/asf-logo.svg HTTP/1.1" 200 20712
+0:0:0:0:0:0:0:1 - - [16/Aug/2018:23:32:53 +0900] "GET /examples/ HTTP/1.1" 200 1156
+0:0:0:0:0:0:0:1 - - [16/Aug/2018:23:32:56 +0900] "GET /examples/servlets HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [16/Aug/2018:23:32:56 +0900] "GET /examples/servlets/ HTTP/1.1" 200 6789
+0:0:0:0:0:0:0:1 - - [16/Aug/2018:23:32:56 +0900] "GET /examples/servlets/images/execute.gif HTTP/1.1" 200 1242
+0:0:0:0:0:0:0:1 - - [16/Aug/2018:23:32:56 +0900] "GET /examples/servlets/images/code.gif HTTP/1.1" 200 292
+0:0:0:0:0:0:0:1 - - [16/Aug/2018:23:32:56 +0900] "GET /examples/servlets/images/return.gif HTTP/1.1" 200 1231
+0:0:0:0:0:0:0:1 - - [16/Aug/2018:23:33:07 +0900] "GET /ADSPSearch/ HTTP/1.1" 404 1118
+0:0:0:0:0:0:0:1 - - [16/Aug/2018:23:33:16 +0900] "GET /host-manager/ HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [16/Aug/2018:23:33:16 +0900] "GET /host-manager/html HTTP/1.1" 401 2098

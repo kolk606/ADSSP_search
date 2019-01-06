@@ -1,0 +1,7 @@
+2018-10-31 08:46:23 JST FATAL:  ƒ†[ƒU"adssp_search"‚ÌƒpƒXƒ[ƒh”FØ‚É¸”s‚µ‚Ü‚µ‚½
+2018-10-31 08:46:23 JST Ú×:  Role "adssp_search" does not exist.
+	Ú‘±‚Ípg_hba.conf‚Ìs82‚Éˆê’v‚µ‚Ü‚µ‚½: "host    all             all             ::1/128                 md5"
+2018-10-31 08:48:21 JST ERROR:  "%"ã¾ãŸã¯ãã®è¿‘è¾ºã§æ§‹æ–‡ã‚¨ãƒ©ãƒ¼(æ–‡å­—ä½ç½® 84)
+2018-10-31 08:48:21 JST ã‚¹ãƒ†ãƒ¼ãƒˆãƒ¡ãƒ³ãƒˆ:  SELECT feature_name,tab,feature_location FROM feature_info WHERE feature_name LIKE %GINA%;
+2018-10-31 09:22:19 JST LOG:  ã‚¯ãƒ©ã‚¤ã‚¢ãƒ³ãƒˆã‹ã‚‰ãƒ‡ãƒ¼ã‚¿ã‚’å—ä¿¡ã§ãã¾ã›ã‚“ã§ã—ãŸ: An existing connection was forcibly closed by the remote host.
+	
